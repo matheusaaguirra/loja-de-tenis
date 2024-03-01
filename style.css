@@ -1,0 +1,42 @@
+*{
+    text-decoration: none;
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: #EBFFEB;
+    
+}
+
+.cabecalho{
+    display: flex;
+    justify-content: center;
+    padding: 20PX;
+    
+}
+
+.carrinho{
+    display: flex;
+    justify-content: flex-end;
+    
+}
+
+.corpo{
+    border-top: 0.4px solid #000;
+}
+
+.corpo_pesquisa{
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+    height: 30px;
+    border-radius: 15%;
+}
+
+.corpo_produto{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 10px 10px 20px 50px;
+    flex-wrap: wrap;
+}
