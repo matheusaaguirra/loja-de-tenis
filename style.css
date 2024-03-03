@@ -25,6 +25,12 @@ body{
     border-top: 0.4px solid #000;
 }
 
+.img{
+    height: 120px;
+    width: 120px;
+    border-radius: 25px;
+}
+
 .corpo_pesquisa{
     display: flex;
     justify-content: center;
@@ -34,8 +40,9 @@ body{
 }
 
 .corpo_produto{
-    display: flex;
-    flex-direction: row;
+    padding: 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
     justify-content: space-around;
     padding: 10px 10px 20px 50px;
     flex-wrap: wrap;
